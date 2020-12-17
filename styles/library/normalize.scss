@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+
+  &:active {
+    outline: none;
+  }
+}
+
+input {
+  user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  -webkit-user-select: initial;
+}
